@@ -10,3 +10,11 @@ while (count < 10) {
 // output results
 document.write("<h1>Loops</h1>");
 document.write("<ol>" + list + "</ol>");
+
+//array
+
+var myItems = [
+  "question one", "question two"
+]
+
+document.write("<p>" + myItems + "<p>");
