@@ -14,7 +14,19 @@ document.write("<ol>" + list + "</ol>");
 //array
 
 var myItems = [
-  "question one", "question two"
-]
+  ["question one", "answer one"],
+  ["question two", "answer two"]
+];
 
-document.write("<p>" + myItems + "<p>");
+var secondList = "<ul>";
+var i = 0;
+
+while (i< myItems.length){
+  secondList+= "<li>" + myItems[i] + "</li>";
+  i++;
+
+}
+
+secondList+= "</ul>";
+
+document.write(secondList);
